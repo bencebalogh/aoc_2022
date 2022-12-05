@@ -1,7 +1,6 @@
 -module(aoc).
 -export([part1/0]).
 -export([part2/0]).
--export([has_overlap/1]).
 
 part1() ->
     length(lists:filter(fun has_full_overlap/1, input())).
